@@ -8,10 +8,10 @@ To write a program to find the LU Decomposition of a matrix.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-Step 1: Import the numpy module to use the built-in functions for calculation
-Step 2: Prepare the lists from each linear equations and assign in np.array() 
-Step 3: Using the np.linalg.matrix_rank(), we can find the rank of the given matrix.
-Step 4: End the program
+##Step 1: Import the numpy module to use the built-in functions for calculation
+##Step 2: Prepare the lists from each linear equations and assign in np.array() 
+##Step 3: Using the np.linalg.matrix_rank(), we can find the rank of the given matrix.
+##Step 4: End the program
  
 
 ## Program:
@@ -34,7 +34,6 @@ print(U)
 Developed by:S.Ranjani 
 RegisterNumber: 25017557
 '''
-# To print X matrix (solution to the equations)
 import numpy as np
 from scipy.linalg import lu_factor, lu_solve
 a = np.array(eval(input()))
